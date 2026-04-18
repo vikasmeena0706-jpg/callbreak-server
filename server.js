@@ -6,7 +6,6 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: '*' } });
 
-app.use(express.static('C:\\Users\\vikas\\OneDrive\\Desktop\\callbreak-app\\public'));
 
 // ═══════════════════════════════════════
 //  GAME ENGINE
